@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="407dp"
+        android:layout_height="728dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+
+
+
+        <EditText
+            android:id="@+id/nmb"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="nombre" />
+
+        <EditText
+            android:id="@+id/num"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="adivina" />
+
+        <Button
+            android:id="@+id/btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="clickFunction"
+            android:text="intento" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
